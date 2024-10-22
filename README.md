@@ -30,5 +30,4 @@ sudo ./autorun.sh
 YOURSCRIPT.sh
 ) is located in the same directory as this autorun script, or adjust the path accordingly.
 - The script will run as the root user, so ensure that it does not contain any commands that could harm your system or compromise security.
-- If you encounter any errors, check the script path and service name for correctness.
-  
+
