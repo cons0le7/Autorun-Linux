@@ -23,10 +23,6 @@ sudo ./autorun.sh
 ```     
 5. Verify the Service Creation:
 - After running the script, you should see a success message indicating that the service has been created.
-- To verify that the service is set up correctly, you can check the status of the service using:
-```
-systemctl status YOUR_SVC_NAME.service
-```
 - To ensure it runs at startup, you can reboot your system and check the service status again.
 
 # Important Notes:
