@@ -1,7 +1,10 @@
 #!/bin/bash
 
-YOUR_SCRIPT= "{YOURSCRIPT.sh}" #Replace {YOURSCRIPT.sh} remove brackets
-SERVICE_NAME="{YOUR_SVC_NAME}" # Replace {YOUR_SVC_NAME} with the actual service name
+#Replace {YOURSCRIPT.sh} remove brackets.
+YOUR_SCRIPT= "{YOURSCRIPT.sh}" 
+# Replace {YOUR_SVC_NAME} with the service name youd like to use. 
+#Must not conflict with any existing service names. 
+SERVICE_NAME="{YOUR_SVC_NAME}" 
 
 SCRIPT_DIR="$(dirname "$0")"
 SCRIPT_PATH="$SCRIPT_DIR/$YOUR_SCRIPT" . 
