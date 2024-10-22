@@ -11,7 +11,7 @@ with the actual name of the script you want to run. Ensure to remove the bracket
 with a unique service name that does not conflict with any existing service names on your system.
 2. Save the Script.
 3. Make the Script Executable:
-- Open a terminal and navigate to the directory where your script is saved.
+- Open a terminal and cd to the directory where your script is saved.
 - Run the following command to make the script executable:
 ```
 chmod +x autorun.sh
