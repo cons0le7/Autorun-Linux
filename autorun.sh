@@ -8,7 +8,8 @@ if [ ! -f "$SCRIPT_PATH" ]; then
     exit 1
 fi
 
-SERVICE_FILE="/etc/systemd/system/{YOUR_SVC_NAME}.service" #Replace {YOUR_SVC_NAME} with desired service name. Must not conflict with amy existing service names.
+SERVICE_FILE="/etc/systemd/system/{YOUR_SVC_NAME}.service" #Replace {YOUR_SVC_NAME} with desired service name. 
+#Must not conflict with amy existing service names.
 echo "[Unit]
 Description=null
 [Service]
