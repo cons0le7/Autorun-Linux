@@ -1,13 +1,13 @@
 # Autorun-Linux
-A simple shell script to make your scripts auto run at start-up in Linux environments.
+A simple shell script to make your python scripts auto run at start-up in Linux environments.
 # How to use:
 1. Edit autorun.sh:
 - Open in a text editor.
 - Replace
-{YOURSCRIPT.sh}
+YOURSCRIPT.py
 with the actual name of the script you want to run. Ensure to remove the brackets.
 - Replace
-{YOUR_SVC_NAME}
+YOUR_SVC_NAME
 with a unique service name that does not conflict with any existing service names on your system.
 2. Save the Script.
 3. Make the Script Executable:
