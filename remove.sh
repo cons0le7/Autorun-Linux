@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#Replace {YOUR_SVC_NAME} with the actual service name you previously used.
-SERVICE_NAME="{YOUR_SVC_NAME}" 
+#Replace YOUR_SVC_NAME with the actual service name you previously used
+SERVICE_NAME="YOUR_SVC_NAME" 
 SERVICE_FILE="/etc/systemd/system/$SERVICE_NAME.service"
 
 if [ -f "$SERVICE_FILE" ]; then
