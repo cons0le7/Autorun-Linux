@@ -1,4 +1,4 @@
-# Autorun-Linux
+# Autorun-py-Linux
 A simple shell script to make your python scripts auto run at start-up in Linux environments.
 # How to use:
 1. Edit autorun.sh:
