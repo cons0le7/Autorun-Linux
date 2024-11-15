@@ -5,7 +5,7 @@ A simple shell script to make your python scripts auto run at start-up in Linux 
 - Open in a text editor.
 - Replace
 YOURSCRIPT.py
-with the actual name of the script you want to run. Ensure to remove the brackets.
+with the actual name of the script you want to run.
 - Replace
 YOUR_SVC_NAME
 with a unique service name that does not conflict with any existing service names on your system.
