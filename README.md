@@ -27,7 +27,7 @@ sudo ./autorun.sh
 
 # To remove from autorun: 
 - Edit remove.sh in a text editor.
-- Replace {YOUR_SVC_NAME} with the actual name of the service you previously created.
+- Replace "YOUR_SVC_NAME"with the actual name of the service you previously created.
 - Save the script.
 - Make the script executable:
 ```
